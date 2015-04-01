@@ -11,6 +11,11 @@
 <script type="text/javascript" src="js/jquery-1.11.2.js"></script>
 <script type="text/javascript">
 	$(document).ready(function(){
+		$("btnWrite").click(function(){
+			
+		});
+	});
+	$(document).ready(function(){
 		console.log("ready to jQuery");
 		$("#btnWrite").click(function(){
 			console.log("click btn");
